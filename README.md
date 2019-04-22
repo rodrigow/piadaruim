@@ -1,8 +1,8 @@
-# How to add a new Joke
-Fork the repository<br>
-Add a new joke on public/badjoke.json<br>
-Open the PR<br>
-That's it
+# Adding new Jokes:
+* Fork the repository
+* Add a new joke on public/badjoke.json
+* Open a PR
+* That's it
 
 
 # The code
