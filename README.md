@@ -1,3 +1,6 @@
+Para adicionar piadas:
+### `public/badjoke.json`
+
 
 ### `yarn start`
 
