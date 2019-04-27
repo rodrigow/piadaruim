@@ -1,5 +1,5 @@
 export const BadJokeService = async () => {
-    const result = await fetch(`badjoke.json`, {
+    const result = await fetch(`resources/joke`, {
         headers: {
             'Accept':  'application/json',
             'Cache': 'no-store'

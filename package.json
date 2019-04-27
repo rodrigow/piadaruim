@@ -4,7 +4,9 @@
   "description": "Piada Ruim do Dia!",
   "main": "index.js",
   "scripts": {
-    "server": "node server.js"
+    "server": "node server.js",
+    "local": "cd frontend && npm run build && cd .. && npm run server",
+    "deploy": "cd .. && source env.sh && cd piadaruim/frontend && npm install && npm run build && cd .. && npm install && cd .. && stop && start"
   },
   "repository": {
     "type": "git",
