@@ -6,7 +6,7 @@
   "scripts": {
     "server": "node server.js",
     "local": "cd frontend && npm run build && cd .. && npm run server",
-    "deploy": "cd .. && source env.sh && cd piadaruim/frontend && npm install && npm run build && cd .. && npm install && cd .. && stop && start"
+    "deploy": "source ../env.sh && cd frontend && npm install && npm run build && cd .. && npm install"
   },
   "repository": {
     "type": "git",
