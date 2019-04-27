@@ -10,10 +10,9 @@ class App extends Component {
 
   componentDidMount() {
     BadJokeService().then(result => {
-      const jokes = result.jokes
       if (result.ok) {
         console.log(result)
-        this.setState({joke: jokes[Math.floor(Math.random() * jokes.length)]})
+        this.setState({joke: result.joke})
       } else {
         console.log(result)
       }
