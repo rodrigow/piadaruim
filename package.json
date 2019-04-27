@@ -1,0 +1,22 @@
+{
+  "name": "piadaruim",
+  "version": "1.0.0",
+  "description": "Piada Ruim do Dia!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigow/piadaruim.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigow/piadaruim/issues"
+  },
+  "homepage": "https://github.com/rodrigow/piadaruim#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
