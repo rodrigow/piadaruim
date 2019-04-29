@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/rodrigow/piadaruim#readme",
   "dependencies": {
+    "bluebird": "^3.5.4",
     "express": "^4.16.4",
-    "helmet": "^3.16.0"
+    "helmet": "^3.16.0",
+    "sqlite": "^3.0.3"
   }
 }
