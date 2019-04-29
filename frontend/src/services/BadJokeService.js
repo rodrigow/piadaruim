@@ -1,11 +1,4 @@
-export const BadJokeService = async () => {
-    const result = await fetch(`resources/joke`, {
-        headers: {
-            'Accept':  'application/json',
-            'Cache': 'no-store'
-        },
-        credentials: 'same-origin'
-    })
-    const body = result.ok ? await result.json() : {}
-    return Object.assign(result, body)
-}
+import { BadJokeServiceProd } from './BadJokeService.Prod'
+import { BadJokeServiceDev } from './BadJokeService.Dev'
+
+export const BadJokeService = process.env.NODE_ENV === 'production' ? BadJokeServiceProd : BadJokeServiceDev

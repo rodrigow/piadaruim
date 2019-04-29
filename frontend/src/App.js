@@ -5,19 +5,19 @@ import { BadJokeService }  from './services/BadJokeService'
 class App extends Component {
 
   state = {
-    joke: ''
+    joke: {}
   }
 
   componentDidMount() {
     BadJokeService().then(result => {
       if (result.ok) {
-        console.log(result)
         this.setState({joke: result.joke})
       } else {
-        console.log(result)
+        this.setState({joke: {id: 0, text: "Erro, tente mais tarde"}})
       }
     }).catch(e => {
         console.log(e)
+        this.setState({joke: {id: 0, text: "Erro, tente mais tarde"}})
     })
   }
 
@@ -30,7 +30,7 @@ class App extends Component {
           </p>
         </header>
         <div className="joke">
-          <p id="badjoke">{this.state.joke}</p>
+          <p id="badjoke">{this.state.joke.text}</p>
         </div>
       </div>
     );
