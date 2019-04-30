@@ -7,7 +7,7 @@ INSERT INTO Jokes (id, text) VALUES (4, 'Por quê o pintinho estava com o pincel
 INSERT INTO Jokes (id, text) VALUES (5, 'O que é maconha enrolada em jornal? É baseado em fatos reais.');
 INSERT INTO Jokes (id, text) VALUES (6, 'Por quê os dinossauros não batem palma? Porque eles já morreram.');
 INSERT INTO Jokes (id, text) VALUES (7, 'Por quê os mergulhadores se jogam para trás na hora de mergulhar? Porque jogando-se para frente, cairiam dentro do barco.');
-INSERT INTO Jokes (id, text) VALUES (8, 'Uma pessoa vivia terminando seus relacionamentos até que achou sua alma gêmea e nunca mais fez isso. Qual o nome do filme? O Ex-terminador');
+INSERT INTO Jokes (id, text) VALUES (8, 'Uma pessoa vivia terminando seus relacionamentos até que achou sua alma gêmea e nunca mais fez isso. Qual o nome do filme? O Ex-terminador.');
 INSERT INTO Jokes (id, text) VALUES (9, 'O que um instrutor de auto escola foi fazer no forró? R: Ensinar Frank Aguiar.');
 INSERT INTO Jokes (id, text) VALUES (10, 'O que é um Terapeuta? R: São 1024 Gigapeutas!');
 INSERT INTO Jokes (id, text) VALUES (11, 'Por quê as araucárias não se perdem na mata? Pois elas tem uma pinha.');
@@ -32,6 +32,16 @@ INSERT INTO Jokes (id, text) VALUES (29, 'int x=10; int y=10; return x+y; // Qua
 INSERT INTO Jokes (id, text) VALUES (30, 'O que a esposa do Einstein disse na primeira vez que o viu nú? QUE FÍSICO!');
 INSERT INTO Jokes (id, text) VALUES (31, 'Como transformar uma laranja em cobra? Esprema a laranja dentro de um saquinho, feche e faça cócegas no saquinho que daí o SUCU-RI!');
 INSERT INTO Jokes (id, text) VALUES (32, 'Você sabe qual é o rei dos queijos? O Reiqueijão.');
+INSERT INTO Jokes (id, text) VALUES (33, 'Por quê não roubam moto do Japonês? Por que ele compra Yamaha.');
+INSERT INTO Jokes (id, text) VALUES (34, 'Quem é o Rei da Horta? O ReiPolho!');
+INSERT INTO Jokes (id, text) VALUES (35, 'Quem é o Anjo do banheiro? O Anjolejo!');
+INSERT INTO Jokes (id, text) VALUES (36, 'Que é o Senhor da Horta? O SeuNoura');
+INSERT INTO Jokes (id, text) VALUES (37, 'Por que na Argentina as vacas vivem olhando para o céu? Porque lá tem Boi nos Ares!');
+INSERT INTO Jokes (id, text) VALUES (38, 'Qual é o vinho que não deixa bêbado ninguém bêbado? Ovinho de codorna');
+INSERT INTO Jokes (id, text) VALUES (39, 'Qual é o mostro grande, verde, que vive em baixo da terra e come pedras? É O Grande Monstro Verde Comedor de Pedras.');
+INSERT INTO Jokes (id, text) VALUES (40, 'Qual é o animal mais justo do mundo? A cobra, porque ela não passa a perna em ninguém');
+INSERT INTO Jokes (id, text) VALUES (41, 'Um matemático está preso em um freezer quadrado. O que ele faz para se salvar? Ele corre para um dos cantos, onde faz 90 graus.');
+INSERT INTO Jokes (id, text) VALUES (42, 'Uma pessoa segurava uma bola azul em uma mão e uma vermelha na outra mão. Ela deixou a bola azul cair. Qual o nome do filme? Largoa Azul');
 
 -- Down 
 DROP TABLE Jokes;
