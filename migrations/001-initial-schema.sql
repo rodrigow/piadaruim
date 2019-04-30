@@ -31,6 +31,7 @@ INSERT INTO Jokes (text) VALUES ('Por que dói mais tropeçar numa caixa de som?
 INSERT INTO Jokes (text) VALUES ('int x=10; int y=10; return x+y; // Qual o nome do filme? O Código dá Vinte');
 INSERT INTO Jokes (text) VALUES ('O que a esposa do Einstein disse na primeira vez que o viu nú? QUE FÍSICO!');
 INSERT INTO Jokes (text) VALUES ('Como transformar uma laranja em cobra? Esprema a laranja dentro de um saquinho, feche e faça cócegas no saquinho que daí o SUCU-RI!');
+INSERT INTO Jokes (text) VALUES ('Você sabe qual é o rei dos queijos? O Reiqueijão.');
 
  
 -- Down 
