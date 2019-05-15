@@ -133,6 +133,19 @@ INSERT INTO Jokes (id, text) VALUES (130, 'Qual o Rapper que mais sabe estaciona
 INSERT INTO Jokes (id, text) VALUES (131, 'Onde o Batman e o Robin se conheceram? No bat-papo.' );
 INSERT INTO Jokes (id, text) VALUES (132, 'Qual o filósofo se sentia um lixo? O Descartes.' );
 INSERT INTO Jokes (id, text) VALUES (133, 'De qual lugar do mundo os pombos surgiram?  Da Prúúúsia!' );
+INSERT INTO Jokes (id, text) VALUES (134, 'Por que o lápis foi malhar? Porque ele queria ser graFITNESS' );
+INSERT INTO Jokes (id, text) VALUES (135, 'Como o cantor sertanejo foi demito? Por justa calça.' );
+INSERT INTO Jokes (id, text) VALUES (136, 'Qual a brincadeira preferida dos biscoitos Oreo? Caça ao tesOREO.' );
+INSERT INTO Jokes (id, text) VALUES (137, 'Por que o Hitler não conseguiu invadir a Rússia? Porque ele MOSCOU.' );
+INSERT INTO Jokes (id, text) VALUES (138, 'Qual a palavra que mais trabalha? O "Porque", porque ele tem 4 empregos.' );
+INSERT INTO Jokes (id, text) VALUES (139, 'Qual o melhor curso para se fazer quando se está desempregado? O curso de chaveiro, pois ele abre muitas portas.' );
+INSERT INTO Jokes (id, text) VALUES (140, 'O que é um ponto verde no Rio Grande do Sul? Um aBah-ca-tchê!' );
+INSERT INTO Jokes (id, text) VALUES (141, 'Qual o X-Men é o melhor em propaganda publicitária? O SLogan.' );
+INSERT INTO Jokes (id, text) VALUES (142, 'Qual o molho que só o gato pode comer? O CATchup.' );
+INSERT INTO Jokes (id, text) VALUES (143, 'Qual o molho que só se come em Maio? Maionese.' );
+INSERT INTO Jokes (id, text) VALUES (144, 'Qual o molho que é super legal? O SHOwIO.' );
+INSERT INTO Jokes (id, text) VALUES (145, 'Qual o molho que não falha. Mostarda, mas não falha!' );
+INSERT INTO Jokes (id, text) VALUES (146, 'O que é a fofoca? A mimiga da Babaleia!' );
 
 
 -- Down
