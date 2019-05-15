@@ -37,7 +37,7 @@ INSERT INTO Jokes (id, text) VALUES (34, 'Quem é o Rei da Horta? O ReiPolho!');
 INSERT INTO Jokes (id, text) VALUES (35, 'Quem é o Anjo do banheiro? O Anjolejo!');
 INSERT INTO Jokes (id, text) VALUES (36, 'Que é o Senhor da Horta? O SeuNoura');
 INSERT INTO Jokes (id, text) VALUES (37, 'Por que na Argentina as vacas vivem olhando para o céu? Porque lá tem Boi nos Ares!');
-INSERT INTO Jokes (id, text) VALUES (38, 'Qual é o vinho que não deixa bêbado ninguém bêbado? Ovinho de codorna');
+INSERT INTO Jokes (id, text) VALUES (38, 'Qual é o vinho que não deixa ninguém bêbado? Ovinho de codorna');
 INSERT INTO Jokes (id, text) VALUES (39, 'Qual é o mostro grande, verde, que vive em baixo da terra e come pedras? É O Grande Monstro Verde Comedor de Pedras.');
 INSERT INTO Jokes (id, text) VALUES (40, 'Qual é o animal mais justo do mundo? A cobra, porque ela não passa a perna em ninguém');
 INSERT INTO Jokes (id, text) VALUES (41, 'Um matemático está preso em um freezer quadrado. O que ele faz para se salvar? Ele corre para um dos cantos, onde faz 90 graus.');
@@ -115,6 +115,24 @@ INSERT INTO Jokes (id, text) VALUES (112, 'Qual a diferença do chocolate e da e
 INSERT INTO Jokes (id, text) VALUES (113, 'Chico tem um cachorrinho que se chama choco. Choco não fala. Chocolate.' );
 INSERT INTO Jokes (id, text) VALUES (114, 'Qual o MC não bebe cerveja? o MC KeVINHO.' );
 INSERT INTO Jokes (id, text) VALUES (115, 'A Abelha e o Urso: - Oi, abelha! posso ficar com isso? - Não, porque isso é mel!' );
+INSERT INTO Jokes (id, text) VALUES (116, 'Por que a cantina do Elétron quebrou? Porque a massa dele é desprezível!' );
+INSERT INTO Jokes (id, text) VALUES (117, 'Qual é a carne vegetariana? Contra-filé!' );
+INSERT INTO Jokes (id, text) VALUES (118, 'Policial parou um carro e questionou o motorista por que o carro estava sem placa. Ele respondeu: Porque ele usa colgate total 12.' );
+INSERT INTO Jokes (id, text) VALUES (119, 'O que o Thor usa para ir à um casamento? Um paliTHOR.' );
+INSERT INTO Jokes (id, text) VALUES (120, 'Qual o look que pode derrotar o Darth Vader hoje? O luke do dia!' );
+INSERT INTO Jokes (id, text) VALUES (121, 'Qual a bebida preferida dos dinossauros? CapuDINO.' );
+INSERT INTO Jokes (id, text) VALUES (122, 'Qual o nome do cara que mora em dois endereços e faz academia? BiCEPs' );
+INSERT INTO Jokes (id, text) VALUES (123, 'Qual o remédio do Ayrton Senna? Busco pan pan pan ... pan pan pan...' );
+INSERT INTO Jokes (id, text) VALUES (124, 'Quando o sapato dá risada? Quando ele vê graxa!' );
+INSERT INTO Jokes (id, text) VALUES (125, 'Qual a personagem dos contos de fadas é a musa inspiradora do Rap? A Bela Do MCida' );
+INSERT INTO Jokes (id, text) VALUES (126, 'Qual foto das plantas que resume tudo? A foto síntese.' );
+INSERT INTO Jokes (id, text) VALUES (127, 'O que o garoto químico falou para o tio quando saiu de casa? Volátil!' );
+INSERT INTO Jokes (id, text) VALUES (128, 'O que o canibal vegetariano come? Batata da perna.' );
+INSERT INTO Jokes (id, text) VALUES (129, 'Quem é o povo que repete tudo? os SuECOS ecos ecos ecos ecos...' );
+INSERT INTO Jokes (id, text) VALUES (130, 'Qual o Rapper que mais sabe estacionar? o Mano Brando.' );
+INSERT INTO Jokes (id, text) VALUES (131, 'Onde o Batman e o Robin se conheceram? No bat-papo.' );
+INSERT INTO Jokes (id, text) VALUES (132, 'Qual o filósofo se sentia um lixo? O Descartes.' );
+INSERT INTO Jokes (id, text) VALUES (133, 'De qual lugar do mundo os pombos surgiram?  Da Prúúúsia!' );
 
 
 -- Down
