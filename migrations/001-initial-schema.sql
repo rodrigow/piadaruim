@@ -146,6 +146,21 @@ INSERT INTO Jokes (id, text) VALUES (143, 'Qual o molho que só se come em Maio?
 INSERT INTO Jokes (id, text) VALUES (144, 'Qual o molho que é super legal? O SHOwIO.' );
 INSERT INTO Jokes (id, text) VALUES (145, 'Qual o molho que não falha. Mostarda, mas não falha!' );
 INSERT INTO Jokes (id, text) VALUES (146, 'O que é a fofoca? A mimiga da Babaleia!' );
+INSERT INTO Jokes (id, text) VALUES (147, 'Qual a cidade que mais beija? Beijing.' );
+INSERT INTO Jokes (id, text) VALUES (147, 'Qual a cidade que mais beija? Beijing.' );
+INSERT INTO Jokes (id, text) VALUES (148, 'Por que a manicure ficou milionária? Porque ele ACETONAmegasena.' );
+INSERT INTO Jokes (id, text) VALUES (149, 'O que disse o casal de Peruanos que teve filho no Réveillon? Obrigado peruano maravilhoso que tivemos!' );
+INSERT INTO Jokes (id, text) VALUES (150, 'Qual o cúmulo da preguiça?  Não sei, inventa aí!' );
+INSERT INTO Jokes (id, text) VALUES (151, 'Qual o cúmulo do egoísmo? Não vou dizer só eu que sei!' );
+INSERT INTO Jokes (id, text) VALUES (152, 'Qual o cúmulo do esquecimento? Esquecer o dia do aniversário do irmão gêmeo!' );
+INSERT INTO Jokes (id, text) VALUES (153 , 'Qual o cúmulo do esquecimento? Esquecer o dia do aniversário do irmão gêmeo!' );
+INSERT INTO Jokes (id, text) VALUES (154 , 'Qual rede social que os mineiros mais usam? Uaitsap!' );
+INSERT INTO Jokes (id, text) VALUES (155 , 'Qual personagem de Star Wars pega antipatia pelas pessoas? Ranço-lo!' );
+INSERT INTO Jokes (id, text) VALUES (156 , 'Qual o sorvete preferido dos Vingadores? NapoliTHANOS.' );
+INSERT INTO Jokes (id, text) VALUES (157 , 'Olhei para o céu e vi as estrelas formarem uma vaca, o que eu vi? Uma COWstelação!' );
+INSERT INTO Jokes (id, text) VALUES (158 , 'O que piadas sobre vacas são? Muuuuuuuito boas!' );
+INSERT INTO Jokes (id, text) VALUES (159 , 'Um moço se chamava Rogério, ele perdeu o RG e virou Oéio.' );
+INSERT INTO Jokes (id, text) VALUES (160 , 'Qual o mês que você não quer que venha na sua casa? O NOVEMbro!' );
 
 
 -- Down
