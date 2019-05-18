@@ -147,7 +147,6 @@ INSERT INTO Jokes (id, text) VALUES (144, 'Qual o molho que é super legal? O SH
 INSERT INTO Jokes (id, text) VALUES (145, 'Qual o molho que não falha. Mostarda, mas não falha!' );
 INSERT INTO Jokes (id, text) VALUES (146, 'O que é a fofoca? A mimiga da Babaleia!' );
 INSERT INTO Jokes (id, text) VALUES (147, 'Qual a cidade que mais beija? Beijing.' );
-INSERT INTO Jokes (id, text) VALUES (147, 'Qual a cidade que mais beija? Beijing.' );
 INSERT INTO Jokes (id, text) VALUES (148, 'Por que a manicure ficou milionária? Porque ele ACETONAmegasena.' );
 INSERT INTO Jokes (id, text) VALUES (149, 'O que disse o casal de Peruanos que teve filho no Réveillon? Obrigado peruano maravilhoso que tivemos!' );
 INSERT INTO Jokes (id, text) VALUES (150, 'Qual o cúmulo da preguiça?  Não sei, inventa aí!' );
