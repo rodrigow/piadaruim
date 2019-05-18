@@ -162,6 +162,5 @@ INSERT INTO Jokes (id, text) VALUES (158 , 'O que piadas sobre vacas são? Muuuu
 INSERT INTO Jokes (id, text) VALUES (159 , 'Um moço se chamava Rogério, ele perdeu o RG e virou Oéio.' );
 INSERT INTO Jokes (id, text) VALUES (160 , 'Qual o mês que você não quer que venha na sua casa? O NOVEMbro!' );
 
-
 -- Down
 DROP TABLE Jokes;
