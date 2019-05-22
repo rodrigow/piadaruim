@@ -158,6 +158,19 @@ INSERT INTO Jokes (id, text) VALUES (155 , 'Olhei para o céu e vi as estrelas f
 INSERT INTO Jokes (id, text) VALUES (156 , 'O que piadas sobre vacas são? Muuuuuuuito boas!' );
 INSERT INTO Jokes (id, text) VALUES (157 , 'Um moço se chamava Rogério, ele perdeu o RG e virou Oéio.' );
 INSERT INTO Jokes (id, text) VALUES (158 , 'Qual o mês que você não quer que venha na sua casa? O NOVEMbro!' );
+INSERT INTO Jokes (id, text) VALUES (159 , 'Qual o cereal favorito do vampiro? Aveia' );
+INSERT INTO Jokes (id, text) VALUES (160 , 'Como conseguir um choquito? Colocando o dedito na tomadita!' );
+INSERT INTO Jokes (id, text) VALUES (170 , 'Qual parte do carro foi criada no antigo Egito? Os faraóis.' );
+INSERT INTO Jokes (id, text) VALUES (171 , 'Qual o nome da mulher que trabalha no laboratório? Ester Eliza.' );
+INSERT INTO Jokes (id, text) VALUES (172 , 'O que dá o cruzamento de uma cobra com um porco-espidnho? Um arame farpado.' );
+INSERT INTO Jokes (id, text) VALUES (173 , 'Qual o sonho de toda cobra? Serpente.' );
+INSERT INTO Jokes (id, text) VALUES (174 , 'Como se diz "oito" em russo? - Quasnov.' );
+INSERT INTO Jokes (id, text) VALUES (175 , 'O que o Arnold Schwarzenegger disse quando recebeu um computador que tinha o Windows XP instalado? - Instala Vista, baby.' );
+INSERT INTO Jokes (id, text) VALUES (176 , 'Você sabe da história da mulher que morreu de Maria? Ela foi à praia pela primeira vez, pensou que o mar vinha, só que o mar ia..' );
+INSERT INTO Jokes (id, text) VALUES (177 , 'O marido chega em casa, bate na porta e a mulher pergunta: - Quem é? E ele responde: - Marido da Barbie!' );
+INSERT INTO Jokes (id, text) VALUES (178 , 'O seno foi usar o banheiro, mas o cosseno tava lá dentro. Quando o seno bateu na porta, o que o cosseno gritou? TANGENTE!!!' );
+INSERT INTO Jokes (id, text) VALUES (179 , 'Quem é a filha da Diva? Advinha!' );
+INSERT INTO Jokes (id, text) VALUES (180 , 'Era motorista. Seu nome? José Passos Dias Aguiar.' );
 
 
 -- Down
