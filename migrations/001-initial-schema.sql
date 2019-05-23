@@ -182,7 +182,14 @@ INSERT INTO Jokes (id, text) VALUES (179 , 'Qual a tecla preferida do astronauta
 INSERT INTO Jokes (id, text) VALUES (180 , 'O que é um ponto amarela numa Limousine? R: Um MILHOnário!' );
 INSERT INTO Jokes (id, text) VALUES (181 , 'Por que elefante não pega fogo? R: Porque ele já é cinza!' );
 INSERT INTO Jokes (id, text) VALUES (182 , 'Por que os peixes comem o tempo inteiro? Porque estão sempre com água na boca!' );
-INSERT INTO Jokes (id, text) VALUES (183 , 'Por que os peixes comem o tempo inteiro? Porque estão sempre com água na boca!' );
+INSERT INTO Jokes (id, text) VALUES (183 , 'o Ivo passou na faculdade de medicina e foi fazer estágio no hospital. Qual o nome do filme? O Residente IVO' );
+INSERT INTO Jokes (id, text) VALUES (184 , 'Sabe porque o Mário pequeno é bom na fase da água? Pq ele é Marinho.' );
+INSERT INTO Jokes (id, text) VALUES (185 , 'Qual carro que hoje é uma cicatriz? O Escort.' );
+INSERT INTO Jokes (id, text) VALUES (186 , 'Qual o carro que foi feito especialmente para você? Parati.' );
+INSERT INTO Jokes (id, text) VALUES (187 , 'O que é que a vaca dá depois de um terremoto? MilkShake.' );
+INSERT INTO Jokes (id, text) VALUES (188 , 'Era uma vez um cara que tinha duas galinhas, chamadas Célia e Odi. E não gostava delas de jeito nenhum. Um belo dia, pegou duas espigas de milho, tirou-lhes o miolo, colocou em cada uma uma dinamite e jogou no galinheiro. As duas galinhas se aproximaram das espigas, comeram por um tempo, até que ambas explodiram. Qual o nome do filme? Dois milho e bum! Odi e Célia no espaço.' );
+INSERT INTO Jokes (id, text) VALUES (189 , 'Qual é o super-herói que usa unhas grandes? O Homem-Arranha!' );
+INSERT INTO Jokes (id, text) VALUES (190 , 'Por que as rodas do trem são de ferro? - R: Porque se fossem de borracha apagariam a linha.' );
 
 
 -- Down
