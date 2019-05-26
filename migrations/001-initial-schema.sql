@@ -208,7 +208,7 @@ INSERT INTO Jokes (id, text) VALUES (205 , 'Qual o personagem da Marvel que é u
 INSERT INTO Jokes (id, text) VALUES (206 , 'Qual a padroeira da matemática? Madre Tereza de Calcular!' );
 INSERT INTO Jokes (id, text) VALUES (207 , 'O que a mosca disse para as outras moscas? É noz moscada!' );
 INSERT INTO Jokes (id, text) VALUES (208 , 'O que é um macaco com uma pasta executiva em cima de uma árvore? Um MICO-empresário!' );
-INSERT INTO Jokes (id, text) VALUES (209 , 'O que é um macaco com uma pasta executiva em cima de uma árvore? Um MICO-empresário!' );
+INSERT INTO Jokes (id, text) VALUES (209 , 'O que a cabra passa quando se rala? Mééééééthiolate!' );
 INSERT INTO Jokes (id, text) VALUES (210 , 'Como a vaca chama o namorado boi dela? Môôôôôôôôôôôôôôô!' );
 INSERT INTO Jokes (id, text) VALUES (211 , 'Qual a melhor amiga da ovelha? a Béééééést Friend Forééééééver!' );
 INSERT INTO Jokes (id, text) VALUES (212 , 'Um cara caiu num VÃO na estrada e gritou: Meu Deusss! Daí um pastor passou e falou: "não diga o nome de Deus em VÃO!' );
@@ -217,7 +217,7 @@ INSERT INTO Jokes (id, text) VALUES (214 , 'Os vingadores fizeram uma festa, mas
 INSERT INTO Jokes (id, text) VALUES (215 , 'Em qual país a vaca pasta mais lentamente? Na SLOWvaca!' );
 INSERT INTO Jokes (id, text) VALUES (216 , 'Qual a fruta preferida da Cabra? A Méééélancia!' );
 INSERT INTO Jokes (id, text) VALUES (216 , 'Por que virei Quiromante quando voltei da Alemanha? Porque lá eu aprendi a LÊ MÃO!' );
-INSERT INTO Jokes (id, text) VALUES (217 , 'O que a cabra passa quando se rala? Mééééééthiolate!' );
+
 
 
 -- Down
