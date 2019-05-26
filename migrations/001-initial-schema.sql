@@ -190,6 +190,34 @@ INSERT INTO Jokes (id, text) VALUES (187 , 'O que é que a vaca dá depois de um
 INSERT INTO Jokes (id, text) VALUES (188 , 'Era uma vez um cara que tinha duas galinhas, chamadas Célia e Odi. E não gostava delas de jeito nenhum. Um belo dia, pegou duas espigas de milho, tirou-lhes o miolo, colocou em cada uma uma dinamite e jogou no galinheiro. As duas galinhas se aproximaram das espigas, comeram por um tempo, até que ambas explodiram. Qual o nome do filme? Dois milho e bum! Odi e Célia no espaço.' );
 INSERT INTO Jokes (id, text) VALUES (189 , 'Qual é o super-herói que usa unhas grandes? O Homem-Arranha!' );
 INSERT INTO Jokes (id, text) VALUES (190 , 'Por que as rodas do trem são de ferro? - R: Porque se fossem de borracha apagariam a linha.' );
+INSERT INTO Jokes (id, text) VALUES (191 , 'O que um jardim disse para o outro? Seu disgramado!' );
+INSERT INTO Jokes (id, text) VALUES (192 , 'Sabe qual animal que pesava quilos e hoje em dia só pesa gramas? O es-quilo' );
+INSERT INTO Jokes (id, text) VALUES (193 , 'Qual o cúmulo do drama? Mesmo se eu explicasse, você não me entenderia! (chorando)' );
+INSERT INTO Jokes (id, text) VALUES (194 , 'Por que o hipertenso não pode se apaixonar? Porque a SALdade faz mal!' );
+INSERT INTO Jokes (id, text) VALUES (195 , 'Por que chamaram o Batman para fazer um bolo? Porque só ele sabe usar a BATedeira.' );
+INSERT INTO Jokes (id, text) VALUES (196 , 'Quando estiver sofrendo um ataque do coração, manda um BATsinal para ele vir conferir os seus BATmentos!' );
+INSERT INTO Jokes (id, text) VALUES (197 , 'Por que a vaca foi para o espaço? Para encontrar o vácuo e ter um monte de VACUinhas e fazer a via LACTEA!' );
+INSERT INTO Jokes (id, text) VALUES (198 , 'Diálogo: - Eu te amo! - Por que você me ama? - Toda vez que eu estou com você meu coração acelara e eu fico sem ar! - O nome disso é asma! - Então eu te ASMO muito!' );
+INSERT INTO Jokes (id, text) VALUES (199 , 'Ao nascer e ver o mundo cruel o passarinho bradou em alta voz: "Estou chocado!"' );
+INSERT INTO Jokes (id, text) VALUES (200 , 'Professora - Joãozinho fale uma frase com a palavra "capacidade" Joãozinho - Eu era da roça, agora eu vim morar CAPACIDADE.' );
+INSERT INTO Jokes (id, text) VALUES (201 , 'Professora - Joãozinho fale um verbo. Joãozinho - hospedar. Professora - coloque esse verbo numa frase. Joãozinho - HOSPEDAR da bicicreta são de prástico!' );
+INSERT INTO Jokes (id, text) VALUES (202 , 'O que o Google pai disse para o Google filho na hora do jantar? - Google Chrome!' );
+INSERT INTO Jokes (id, text) VALUES (203 , 'O que acontece dentro do BATMAN? BATimentos' );
+INSERT INTO Jokes (id, text) VALUES (204 , 'O que um Pão Ranger falou para o outro Pão Ranger dentro da geladeira? Vamos MOFAR!' );
+INSERT INTO Jokes (id, text) VALUES (205 , 'Qual o personagem da Marvel que é um pão? O BREAD pool!' );
+INSERT INTO Jokes (id, text) VALUES (206 , 'Qual a padroeira da matemática? Madre Tereza de Calcular!' );
+INSERT INTO Jokes (id, text) VALUES (207 , 'O que a mosca disse para as outras moscas? É noz moscada!' );
+INSERT INTO Jokes (id, text) VALUES (208 , 'O que é um macaco com uma pasta executiva em cima de uma árvore? Um MICO-empresário!' );
+INSERT INTO Jokes (id, text) VALUES (209 , 'O que é um macaco com uma pasta executiva em cima de uma árvore? Um MICO-empresário!' );
+INSERT INTO Jokes (id, text) VALUES (210 , 'Como a vaca chama o namorado boi dela? Môôôôôôôôôôôôôôô!' );
+INSERT INTO Jokes (id, text) VALUES (211 , 'Qual a melhor amiga da ovelha? a Béééééést Friend Forééééééver!' );
+INSERT INTO Jokes (id, text) VALUES (212 , 'Um cara caiu num VÃO na estrada e gritou: Meu Deusss! Daí um pastor passou e falou: "não diga o nome de Deus em VÃO!' );
+INSERT INTO Jokes (id, text) VALUES (213 , 'Era uma vez um homem chamado Sá... Ele não era muito bonito, mas era muito cheiroso. Ele era o Sá bonitinho cheiroso!' );
+INSERT INTO Jokes (id, text) VALUES (214 , 'Os vingadores fizeram uma festa, mas o capitão esqueceu os doces. Ainda bem que o THORtinha!' );
+INSERT INTO Jokes (id, text) VALUES (215 , 'Em qual país a vaca pasta mais lentamente? Na SLOWvaca!' );
+INSERT INTO Jokes (id, text) VALUES (216 , 'Qual a fruta preferida da Cabra? A Méééélancia!' );
+INSERT INTO Jokes (id, text) VALUES (216 , 'Por que virei Quiromante quando voltei da Alemanha? Porque lá eu aprendi a LÊ MÃO!' );
+INSERT INTO Jokes (id, text) VALUES (217 , 'O que a cabra passa quando se rala? Mééééééthiolate!' );
 
 
 -- Down
