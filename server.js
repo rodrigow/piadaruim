@@ -9,8 +9,13 @@ const dbPromise = sqlite.open('./piadaruim.sqlite', { Promise })
 const server = express()
 const port = 15751
 
+const sql = id => {
+    return isNaN(id) ? 'SELECT * FROM Jokes ORDER BY RANDOM() LIMIT 1;' : `SELECT * FROM Jokes WHERE id = ${id}`
+}
+
 server.use(helmet())
 server.use('/', express.static(path.join(__dirname, 'frontend/build')))
+server.use('/static', express.static(path.join(__dirname, 'frontend/build/static')))
 
 server.get('/resources/joke/:id?', async function (req, res, next) {
     try {
@@ -22,8 +27,8 @@ server.get('/resources/joke/:id?', async function (req, res, next) {
     }
 })
 
-const sql = id => {
-    return isNaN(id) ? 'SELECT * FROM Jokes ORDER BY RANDOM() LIMIT 1;' : `SELECT * FROM Jokes WHERE id = ${id}`
-}
+server.get('*', (req,res) =>{
+    res.sendFile(path.join(__dirname, 'frontend/build/'));
+});
 
 server.listen(port, () => console.log(`Piada Ruim do Dia running on port ${port}!`))

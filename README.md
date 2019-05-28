@@ -16,5 +16,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## To run the server:
 
-### `frontend/npm run build`
+### `npm run local`
 ### `node server.js`
