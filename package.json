@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "node server.js",
-    "local": "cd frontend && npm run build && cd .. && npm run server",
-    "deploy": "source ../env.sh && cd frontend && npm install && npm run build && cd .. && npm install"
+    "local": "cd frontend && npm run build && cd .. && npm run server"
   },
   "repository": {
     "type": "git",
