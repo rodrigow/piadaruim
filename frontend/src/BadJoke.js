@@ -13,7 +13,7 @@ class BadJoke extends Component {
         if (result.ok) {
           this.setState({joke: result.joke})
         } else {
-          this.setState({joke: {id: 0, text: "Erro, tente mais tarde"}})
+          this.setState({joke: {id, text: 'Essa piada ainda é tão ruim que ainda não existe!!!' }})
         }
       }).catch(e => {
           console.log(e)
@@ -45,7 +45,7 @@ class BadJoke extends Component {
             <div>
                 <label htmlFor='permalink'>Permalink:</label>
                 <input id='permalink' readOnly type='text' value={`${window.location.origin}/${this.state.joke.id}`}></input>
-                <button onClick={this.copyToClipboard}>Copiar</button> 
+                <button onClick={this.copyToClipboard}>Copiar</button>
             </div>
             <br />
             <br />
