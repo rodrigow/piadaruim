@@ -50,7 +50,7 @@ class BadJoke extends Component {
             <br />
             <br />
             <div>
-              <a href="/">Quero ver uma nova piada!</a>
+              <a href="/" className="button">Quero ver uma nova piada!</a>
             </div>
           </div>
         </div>
