@@ -45,12 +45,12 @@ class BadJoke extends Component {
             <div>
                 <label htmlFor='permalink'>Permalink:</label>
                 <input id='permalink' readOnly type='text' value={`${window.location.origin}/${this.state.joke.id}`}></input>
-                <button onClick={this.copyToClipboard}>Copiar</button>
+                <button className="button-permalink" onClick={this.copyToClipboard}>Copiar</button>
             </div>
             <br />
             <br />
             <div>
-              <a href="/" className="button">Quero ver uma nova piada!</a>
+              <button className="button"  onClick={(e) => this.callService()}>Quero ver uma nova piada!</button>
             </div>
           </div>
         </div>

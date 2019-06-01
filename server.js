@@ -5,6 +5,8 @@ const helmet = require('helmet')
 const Promise = require('bluebird')
 const sqlite = require('sqlite')
 const dbPromise = sqlite.open('./piadaruim.sqlite', { Promise })
+    .then(db => db.migrate({ force: 'last' }));
+
 
 const server = express()
 const port = 15751

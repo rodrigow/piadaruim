@@ -19,15 +19,54 @@
 
 .button {
   background-color: #4CAF50;
+  border-color: #888888;
+  border-radius: 30px;
+  color: #FFFFFF;
   border: none;
-  color: white;
-  padding: 10px 28px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  margin: .3125rem 7px;
   cursor: pointer;
+  padding: 12px 30px;
+  position: relative;
+  min-width: auto;
+  font-size: 12px;
+  min-height: auto;
+  box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: center;
+  font-weight: 400;
+  will-change: box-shadow, transform;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  touch-action: manipulation;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  vertical-align: middle;
+}
+
+.button-permalink {
+  border-color: #888888;
+  border-radius: 30px;
+  background-color: #999999;
+  color: #FFFFFF;
+  border: none;
+  margin: .3125rem 7px;
+  cursor: pointer;
+  padding: 12px 30px;
+  position: relative;
+  min-width: auto;
+  font-size: 12px;
+  min-height: auto;
+  box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: center;
+  font-weight: 400;
+  will-change: box-shadow, transform;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  touch-action: manipulation;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  vertical-align: middle;
 }
 
 @keyframes App-logo-spin {
