@@ -15,6 +15,8 @@ const sql = id => {
     return isNaN(id) ? 'SELECT * FROM Jokes ORDER BY RANDOM() LIMIT 1;' : `SELECT * FROM Jokes WHERE id = ${id}`
 }
 
+const sqlTotal = 'SELECT COUNT(*) AS _total FROM Jokes'
+
 server.use(helmet())
 server.use('/', express.static(path.join(__dirname, 'frontend/build')))
 server.use('/static', express.static(path.join(__dirname, 'frontend/build/static')))
@@ -29,8 +31,21 @@ server.get('/resources/joke/:id?', async function (req, res, next) {
     }
 })
 
+server.get('/resources/totaljokes', async function (req, res, next) {
+    try {
+        const db = await  dbPromise
+        const [ totalJokes ] = await Promise.all([db.get(sqlTotal)])
+        totalJokes ? res.json(totalJokes) : res.status(404).send({_total: 0})
+        console.log("total", totalJokes)
+    } catch (err) {
+        next(err)
+    }
+})
+
 server.get('*', (req,res) =>{
     res.sendFile(path.join(__dirname, 'frontend/build/'));
 });
+
+
 
 server.listen(port, () => console.log(`Piada Ruim do Dia running on port ${port}!`))
