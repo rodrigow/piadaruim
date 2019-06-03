@@ -24,7 +24,6 @@ server.get('/resources/joke/:id?', async function (req, res, next) {
     try {
         const db = await dbPromise
         const [ joke ] = await Promise.all([db.get(sql(JSON.parse(req.params.id)))])
-        console.log(joke)
         joke ? res.json(joke) : res.status(404).send({id: req.params.id, text: 'Not Found'})
     } catch (err) {
         next(err)
