@@ -13,7 +13,8 @@ class BadJoke extends Component {
 
   callService(id) {
     this.buttonAnswerVisibility("none");
-    BadJokeService(JSON.stringify(this.idsAlreadyBeenRead)).then(result => {
+    var param = !isNaN(id) ? id : JSON.stringify(this.idsAlreadyBeenRead);
+    BadJokeService(param).then(result => {
         if (result.ok) {
             this.splitQuestionAnswerByQuestionMark(result.joke)
         } else {
@@ -43,18 +44,18 @@ class BadJoke extends Component {
   }
 
   getJokesAnswer(joke) {
-      this.setState({joke: {id: joke.id, text: joke.text, answer: 'R: ' + this.splitedAnswer}});
-      this.buttonAnswerVisibility("none")
+    this.setState({joke: {id: joke.id, text: joke.text, answer: 'R: ' + this.splitedAnswer}});
+    this.buttonAnswerVisibility("none")
   }
 
   splitQuestionAnswerByQuestionMark(joke) {
-      const splitJoke = joke.text.match(/\S[^?]*(?:\?+|$)/g);
-      if (splitJoke.length > 1){
-          this.buttonAnswerVisibility("inline");
-          this.splitedAnswer = splitJoke[1]; // saving splitedAnswer to be show later
-      }
-      this.setState({joke: {id: joke.id, text: splitJoke[0], answer: ''}})
-      this.idsAlreadyBeenRead.push(joke.id)
+     const splitJoke = joke.text.match(/\S[^?]*(?:\?+|$)/g);
+     if (splitJoke.length > 1){
+         this.buttonAnswerVisibility("inline");
+        this.splitedAnswer = splitJoke[1]; // saving splitedAnswer to be show later
+     }
+     this.setState({joke: {id: joke.id, text: splitJoke[0], answer: ''}})
+     this.idsAlreadyBeenRead.push(joke.id)
   }
 
   render() {
