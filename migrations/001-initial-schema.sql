@@ -295,6 +295,9 @@ INSERT INTO Jokes (id, text) VALUES (292, 'O que é um pontinho amarelo no Titan
 INSERT INTO Jokes (id, text) VALUES (293, 'O que é são dois pontinhos na estrada? ARROZnaldinho Gaúcho dentro de seu ARROZroyce!');
 INSERT INTO Jokes (id, text) VALUES (294, 'O que é o filho de um pontinho marrom no palco? Charlie BROWN Jr.!');
 INSERT INTO Jokes (id, text) VALUES (295, 'O que é um pontinho preto no avião? Uma aeroMOSCA!');
+INSERT INTO Jokes (id, text) VALUES (296, 'Uma pessoa sentou em cima do cachorro branco e preto, qual é o nome do filme? Sento em um dálmata.');
+INSERT INTO Jokes (id, text) VALUES (297, 'O gato Tido saiu do cesto. Qual é o nome do filme? Cesto sem tido.');
+
 
 -- Down
 DROP TABLE Jokes;
