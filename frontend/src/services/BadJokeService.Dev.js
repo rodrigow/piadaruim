@@ -4,7 +4,7 @@ export const BadJokeServiceDev = async (id) => {
         ok: true,
         status: 200,
         joke: {
-            id: id ? id : 1,
+            id: isNaN(id) ? 1 : id,
             text: "Por quê as araucárias não se perdem na mata? Pois elas tem uma pinha."
         }
     }
