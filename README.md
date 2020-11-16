@@ -1,20 +1,15 @@
-# Adding new Jokes:
-* Fork the repository
-* Add a new joke on migrations/001-initial-schema.sql
-* Open a PR
-* That's it
+# Piada Ruim!
 
-# The code
-## Set up your env:
-### `nvm use`
+## Adicionando novas piadas
+* Faça um fork do repository
+* Adicione uma piada em piadas.txt
+* Abra um PR
+* Aguarde!
 
-## Inside frontend, to run locally:
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-## To run the server:
-
-### `npm run local`
-### `node server.js`
+## Codigo
+### Env set up:
+#### `nvm use`
+#### `yarn install`
+#### `yarn start`
+Roda a aplicação em mode Dev.<br>
+Abra [http://localhost:3000](http://localhost:3000).

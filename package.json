@@ -1,26 +1,39 @@
 {
   "name": "piadaruim",
-  "version": "1.0.0",
-  "description": "Piada Ruim do Dia!",
-  "main": "index.js",
-  "scripts": {
-    "server": "node server.js",
-    "local": "cd frontend && npm run build && cd .. && npm run server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rodrigow/piadaruim.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rodrigow/piadaruim/issues"
-  },
-  "homepage": "https://github.com/rodrigow/piadaruim#readme",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "bluebird": "^3.5.4",
-    "express": "^4.16.4",
-    "helmet": "^3.21.2",
-    "sqlite": "^3.0.3"
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rm -fr build && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

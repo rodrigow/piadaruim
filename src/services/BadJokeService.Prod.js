@@ -1,5 +1,5 @@
-export const BadJokeServiceProd = async (id) => {
-    const result = await fetch(`resources/joke${id ? `/${id}` : ''}`, {
+export const BadJokeServiceProd = async (id, seen) => {
+    const result = await fetch(`api/index.php${`?id=${id}&seen=${seen}`}`, {
         headers: {
             'Accept':  'application/json',
             'Cache': 'no-store'

@@ -13,8 +13,7 @@ class BadJoke extends Component {
 
   callService = id => {
     BadJoke.buttonAnswerVisibility("none");
-    var param = !isNaN(id) ? id : JSON.stringify(this.idsAlreadyBeenRead);
-    BadJokeService(param).then(result => {
+    BadJokeService(id, this.idsAlreadyBeenRead.join(',')).then(result => {
         if (result.ok) {
             this.splitQuestionAnswerByQuestionMark(result.joke)
         } else {
@@ -33,8 +32,9 @@ class BadJoke extends Component {
   };
 
   componentDidMount = () => {
-    const { match: { params } } = this.props;
-    this.callService(params.id)
+    const { location: { search } } = this.props;
+    let id = search.split('=')[1];
+    this.callService(id);
   };
 
 
@@ -76,7 +76,7 @@ class BadJoke extends Component {
               <div>
                   <label htmlFor='permalink'>Permalink:</label>
                   <input id='permalink' readOnly type='text' className="input"
-                         value={`${window.location.origin}/${this.state.joke.id}`}/>
+                         value={`${window.location.origin}/?id=${this.state.joke.id}`}/>
                   <button className="button-permalink" onClick={BadJoke.copyToClipboard}>Copiar</button>
               </div>
               <br/>
