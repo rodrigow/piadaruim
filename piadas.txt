@@ -297,3 +297,4 @@
 297, 'O gato Tido saiu do cesto. Qual é o nome do filme? Cesto sem tido.'
 298, 'Onde as formigas surfam? No MICRO-ONDAS!'
 299, 'Sabe qual é o chá que resolve calvice? Chápeu!'
+300, 'Por que a Nasa mandou um guitarra para o espaço? Para o Sistema Solar.'
