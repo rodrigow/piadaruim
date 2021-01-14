@@ -299,3 +299,4 @@
 299, 'Sabe qual é o chá que resolve calvice? Chápeu!'
 300, 'Por que a Nasa mandou um guitarra para o espaço? Para o Sistema Solar.'
 301, 'O que são gases nobres? São peidos dos reis.'
+302, 'Porque as pessoas não se perdem na Polônia? Por que há lá muitas Polacas.'
