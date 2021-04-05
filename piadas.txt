@@ -300,3 +300,6 @@
 300, 'Por que a Nasa mandou um guitarra para o espaço? Para o Sistema Solar.'
 301, 'O que são gases nobres? São peidos dos reis.'
 302, 'Porque as pessoas não se perdem na Polônia? Por que há lá muitas Polacas.'
+303, 'Qual a cidade que não tem táxi? Uberlandia.'
+304, 'O que é um bolo na academia? Um Brownie Builder PORRA!'
+305, 'Pq no quartel não há problemas de eletricidade? Pq lá todo cabo é soldado.'
